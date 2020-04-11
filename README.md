@@ -16,7 +16,7 @@ The project contains the following parts:  
 1. ETL Pipeline: process_data.py: reads in the data, cleans and stores it in a SQL database. The script merges the messages and categories datasets, splits the categories column into separate, clearly named columns, converts values to binary, and drops duplicates.
 2. Dataset: disaster_categories.csv and disaster_messages.csv 
 3. DisasterResponse.db: created database from transformed and cleaned data.
-4. ML Model: train_classifier.py: includes the code necessary to load data, transform it using natural language processing, run a machine learning model using GridSearchCV and train it. 
+4. ML Model: train_classifier.py: includes the code necessary to load data, transform it using natural language processing, run a machine learning model using GridSearchCV, RandomForest and train it. 
 5. Web App: run.py: Flask app and the user interface used to predict results and display them.
 
 
